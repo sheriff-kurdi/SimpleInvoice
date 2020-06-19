@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SimpleeInvoicee" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\sheri\\source\\repos\\Invoice\\Invoice\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="SimpleInvoice.Data.ApplicationDbContext" description="" value="Data Source=tcp:simpleinvoiceeedbserver.database.windows.net,1433;Initial Catalog=SimpleInvoicee_db;User Id=kurdi@simpleinvoiceeedbserver;Password=tifa.011516" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\sheri\\source\\repos\\Invoice\\Invoice\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\SimpleInvoice\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
